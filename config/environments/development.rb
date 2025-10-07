@@ -103,4 +103,7 @@ Rails.application.configure do
   # GITPOD_WORKSPACE_CLUSTER_HOST=ws-us114.gitpod.io
   # results in 3000-brianjaustin-otwarchive-w2lj9jd79gm.ws-us114.gitpod.io
   config.hosts << "3000-#{ENV['GITPOD_WORKSPACE_ID']}.#{ENV['GITPOD_WORKSPACE_CLUSTER_HOST']}" if ENV["GITPOD_WORKSPACE_ID"]
+
+  # Allow requests to local development hostnames
+  config.hosts << "web.otwarchive.orb.local"
 end
