@@ -185,3 +185,7 @@ end
 
 gem "image_processing", "~> 1.12"
 gem "ostruct"
+
+group :development do
+  gem 'meta_request'
+end
