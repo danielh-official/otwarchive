@@ -9,6 +9,7 @@ require "database_cleaner"
 require "email_spec"
 require "webmock/rspec"
 require "n_plus_one_control/rspec"
+require 'shoulda/matchers'
 
 DatabaseCleaner.start
 DatabaseCleaner.clean
