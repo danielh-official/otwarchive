@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+    ],
+    "settings": {},
+    "extensions": {
+        "recommendations": [
+            "shopify.ruby-extensions-pack"
+        ]
+    }
+}
