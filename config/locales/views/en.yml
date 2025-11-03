@@ -2427,6 +2427,7 @@ en:
         contact_support: contact Support
         must_confirm: You must use the link in the confirmation email in order to finish confirming your email change.
         requested_change_html: You have requested to change your email address to %{unconfirmed_email}. A confirmation email has been sent to this address.
+        skip_confirm_email_for_local_development_html: Click here to skip the confirmation email step (for local development only).
       form:
         confirm: Confirm New Email
         current_email: Current email
